@@ -620,6 +620,20 @@ local offset = 1100 local invisible = game.Players.LocalPlayer local grips = {} 
 loadstring(response)()
 end)
  
+
+
+MainSection:NewButton("Infinte Yield", " :(", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+loadstring(response)()
+end)
+
+
+MainSection:NewButton("Dex Explorer", " :(", function()
+loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+loadstring(response)()
+end)
+
+
 MainSection:NewButton("Invisible abillity (keybind: e))", " :(", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/sJngHrQW",true))()
 loadstring(response)()
