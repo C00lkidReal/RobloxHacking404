@@ -30,8 +30,21 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Project: C00lkid(All In One Tab)", "DarkTheme")
  
  
+local Main = Window:NewTab("Welcome To A Universal Hub Made By Me: https://www.youtube.com/@RobloxHacking404 (YT Copied To ClipBoard. Please Sub)")
+local MainSection = Main:NewSection("Arsenal🏃‍♂️‍➡🔫")
+
+MainSection:NewButton("Vapa V2", "Test", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nickyangtpe/Vapa-v2/refs/heads/main/Vapav2-Arsenal.lua", true))()
+loadstring(response)()
+end)
  
-local Main = Window:NewTab("Main")
+ 
+MainSection:NewButton("Tbao Hub", "Test", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))()
+loadstring(response)()
+end)
+ 
+
 local MainSection = Main:NewSection("Adopt Me!🐶")
 
 MainSection:NewButton("Prodigy X", "Test", function()
@@ -594,10 +607,6 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/1p6xnBNf'),true))()
 loadstring(response)()
 end)
  
-MainSection:NewButton("Animation pack", " :(", function()
-loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fe-Silly-animation-V4-16636"))()
-loadstring(response)()
-end)
  
 MainSection:NewButton("Temu KJ🤑🤑🤑", " :(", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/x2QGV4Wh"))()
@@ -620,6 +629,11 @@ local offset = 1100 local invisible = game.Players.LocalPlayer local grips = {} 
 loadstring(response)()
 end)
  
+MainSection:NewButton("Invisible abillity (keybind: e))", " :(", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/sJngHrQW",true))()
+loadstring(response)()
+end)
+
 
 
 MainSection:NewButton("Infinte Yield", " :(", function()
@@ -633,11 +647,12 @@ loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))
 loadstring(response)()
 end)
 
-
-MainSection:NewButton("Invisible abillity (keybind: e))", " :(", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/sJngHrQW",true))()
+MainSection:NewButton("Untitled Animation", " :(", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/C00lkidReal/RobloxHacking404/refs/heads/main/Untitled%20Animation"))()
 loadstring(response)()
 end)
+
+
 
 local MainSection = Main:NewSection("Aimbot🔫")
 
@@ -682,4 +697,3 @@ MainSection:NewButton("BetterBypasser (AI and bypass)", "Test", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()
 loadstring(response)()
 end)
-
